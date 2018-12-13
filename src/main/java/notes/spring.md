@@ -1,7 +1,3 @@
-# Spring-IoC
-Spring配置有两种方式xml和java style
-
-
 ## Spring    
   · spring的IoC(控制反转)就是一个工厂模式变种，<br/>
   · spring核心就是IoC容器，实现这个容器的接口BeanFactory,BeanFactory是最核心的、最纯粹的<br/>
@@ -109,15 +105,3 @@ Spring配置有两种方式xml和java style
   IoC容器在启动就创建了所有的对象（可以加属性lazy-init="true"：意思是这个对象没有那么重要不着急创建），
   还有所有的对象在刚刚开始都是单例模式创建了(可以加scope="prototype"修改：一般我们不会这么做，因为每次都创建一个新的对象，对内存的消耗是非常大的)
   
-  
-		denpend-on 定义顺序(属性)
-		parent 定义继承（属性）
-		scope 定义初始化策略（属性）
-		lazy 延迟初始化	(属性lazy-init)
-		alias 定义别名（标签）
-		import 引入其他的定义文件（标签）
-		
-			
-			例子： <import resource="文件名"/>
-				  <alias name="rabbits" alias="ADO"/>
-				  或是<alias name="ADO" alias="rabbits"/>
