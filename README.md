@@ -1,5 +1,9 @@
-# Spring-IoC
+# Spring-IOC
 Spring配置有两种方式xml和java style
+
+
+## IOC是什么
+控制反转（Inversion of Control，缩写为IoC），是面向对象编程中的一种设计原则，可以用来减低计算机代码之间的耦合度。 其中最常见的方式叫做依赖注入（Dependency Injection，简称DI），还有一种方式叫“依赖查找”（Dependency Lookup）。
 
 
 ## Spring    
