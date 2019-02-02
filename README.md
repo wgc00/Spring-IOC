@@ -125,3 +125,6 @@ Spring配置有两种方式xml和java style
 			例子： <import resource="文件名"/>
 				  <alias name="rabbits" alias="ADO"/>
 				  或是<alias name="ADO" alias="rabbits"/>
+				  
+				  
+				  
